@@ -112,6 +112,7 @@ form select {
 
 form input:focus {
   color: rgba(46, 196, 182, 1);
+  border: 1px solid rgba(46, 196, 182, 1);
 }
 
 form input[type="date"]::-webkit-calendar-picker-indicator {
