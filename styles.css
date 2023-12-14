@@ -110,7 +110,8 @@ form select {
   border-radius: 2px;
 }
 
-form input:focus {
+form input:focus,
+form select:focus {
   color: rgba(46, 196, 182, 1);
   border: 1px solid rgba(46, 196, 182, 1);
 }
@@ -126,6 +127,11 @@ form .activity,
 form .password {
   width: 500px;
   height: 48px;
+}
+
+form .activity-level > select ,
+form .password-l input {
+  margin-block-start: 10px;
 }
 
 form .register-btn {
